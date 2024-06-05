@@ -1,2 +1,74 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:100vw;
+	height:400px;
+	display:flex;
+	/* align-items:center; */
+	justify-content:space-between;
+	
+}
+.box1{
+	width:80px;
+	height:80px;
+    background:red;
+	color:black;
+	font-size:40px;
+	position:relative;
+	top:0;
+	left:43%;
+	/* text-align:center; */
+}
+.box2{
+	width:80px;
+	height:80px;
+    background:blue;
+	color:black;
+	font-size:40px;
+}
+.box3{
+	width:80px;
+	height:80px;
+    background:green;
+	color:black;
+	position:absolute;
+	z-index:1;
+	font-size:40px;
+}
+.box4{
+	width:80px;
+	height:80px;
+    background:green;
+	color:black;
+	position:absolute;
+    font-size:40px;
+}
+.box5{
+	width:80px;
+	height:80px;
+    background:green;
+	color:black;
+	position:absolute;
+	/* z-index:2; */
+	font-size:40px;
 
-/* Your CSS Code here. */
+}
+.box6{
+	width:80px;
+	height:80px;
+    background:green;
+	color:black;
+	position:absolute;
+	font-size:40px;
+}
+.box7{
+	width:80px;
+	height:80px;
+    background:green;
+	color:black;
+	position:absolute;
+	font-size:40px;
+}
