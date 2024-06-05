@@ -7,6 +7,7 @@
 	width:100vw;
 	height:400px;
 	display:flex;
+	flex-wrap:wrap;
 	/* position:relative; */
 	/* align-items:center; */
 	justify-content:space-between;
@@ -28,7 +29,7 @@
 	width:80px;
 	height:80px;
     background:green;
-	position:absolute;
+	/* position:absolute; */
 	color:black;
 	font-size:40px;
 }
@@ -37,7 +38,7 @@
 	height:80px;
     background:green;
 	color:black;
-	position:absolute;
+	/* position:absolute; */
 	/* z-index:1; */
 	font-size:40px;
 }
@@ -46,7 +47,7 @@
 	height:80px;
     background:green;
 	color:black;
-	position:absolute;
+	/* position:absolute; */
     font-size:40px;
 }
 .item5{
@@ -54,7 +55,7 @@
 	height:80px;
     background:green;
 	color:black;
-	position:absolute;
+	/* position:absolute; */
 	/* z-index:2; */
 	font-size:40px;
 
